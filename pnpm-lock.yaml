@@ -8,9 +8,6 @@ importers:
 
   .:
     dependencies:
-      '@mistralai/mistralai':
-        specifier: ^1.6.0
-        version: 1.6.0(zod@3.24.4)
       cheerio:
         specifier: ^1.0.0
         version: 1.0.0
@@ -298,11 +295,6 @@ packages:
     resolution: {integrity: sha512-gqFTGEosKbOkYF/WFj26jMHOI5OH2jeP1MmC/zbK6BF6VJBf8rIC5898dPfSzZEbSA0wbbV5slbntWVc5PKLFA==}
     engines: {node: '>=18'}
 
-  '@mistralai/mistralai@1.6.0':
-    resolution: {integrity: sha512-PQwGV3+n7FbE7Dp3Vnd8DAa3ffx6WuVV966Gfmf4QvzwcO3Mvxpz0SnJ/PjaZcsCwApBCZpNyQzvarAKEQLKeQ==}
-    peerDependencies:
-      zod: '>= 3'
-
   '@tokenizer/token@0.3.0':
     resolution: {integrity: sha512-OvjF+z51L3ov0OyAU0duzsYuvO01PH7x4t6DJx+guahgTnBHkhJdG7soQeTSFLWN3efnHyibZ4Z8l2EuWwJN3A==}
 
@@ -577,11 +569,6 @@ packages:
     resolution: {integrity: sha512-fDlsI/kFEx7gLvbecc0/ohLG50fugQp8ryHzMTuW9vSa1GJ0XYWKnhsUx7oie3G98+r56aTQIUB4kht42R3JvA==}
     engines: {node: '>=4.0'}
 
-  zod-to-json-schema@3.24.5:
-    resolution: {integrity: sha512-/AuWwMP+YqiPbsJx5D6TfgRTc4kTLjsh5SOcd4bLsfUg2RcEXrFMJl1DGgdHy2aCfsIA/cr/1JM0xcB2GZji8g==}
-    peerDependencies:
-      zod: ^3.24.1
-
   zod@3.24.4:
     resolution: {integrity: sha512-OdqJE9UDRPwWsrHjLN2F8bPxvwJBK22EHLWtanu0LSYr5YqzsaaW3RMgmjwr8Rypg5k+meEJdSPXJZXE/yqOMg==}
 
@@ -850,11 +837,6 @@ snapshots:
     dependencies:
       '@jimp/types': 1.6.0
       tinycolor2: 1.6.0
-
-  '@mistralai/mistralai@1.6.0(zod@3.24.4)':
-    dependencies:
-      zod: 3.24.4
-      zod-to-json-schema: 3.24.5(zod@3.24.4)
 
   '@tokenizer/token@0.3.0': {}
 
@@ -1180,9 +1162,5 @@ snapshots:
       xmlbuilder: 11.0.1
 
   xmlbuilder@11.0.1: {}
-
-  zod-to-json-schema@3.24.5(zod@3.24.4):
-    dependencies:
-      zod: 3.24.4
 
   zod@3.24.4: {}
