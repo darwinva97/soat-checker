@@ -1,0 +1,5 @@
+node_modules
+.env
+captcha_transformed.png
+captcha.jpg
+db.json
