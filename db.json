@@ -1,7 +1,10 @@
 {
   "placas": [
     {
-      "placa": "99832K"
+      "placa": "99832K",
+      "lastCaptcha": "2d4z51",
+      "html": "<h1>Se ha superado el máximo de consultas permitido.<br>Intente de nuevo en unos minutos.</h1>",
+      "result": "{\"error\":true,\"message\":\"No se encontró la tabla de resultados\"}"
     }
   ]
 }

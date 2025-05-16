@@ -135,7 +135,7 @@ const main = async () => {
     await db.write();
   }
 
-  console.log("Ya terminó oe baboso");
+  console.log("Placas actualizadas:", placas.filter((placa) => placa.result));
 };
 
 main();
